@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(0, 0%, 12%);
+    background-color: hsl(0, 2%, 10%);
 }
 
 * {
@@ -20,7 +20,7 @@ h1 .name {
     border: 0px solid #ccc;
     padding: 20px;
     border-radius: 10%;
-    background-color: hsl(0, 0%, 20%);
+    background-color: hsl(0, 0%, 12%);
 }
 
 p {
@@ -47,4 +47,11 @@ p {
     border-radius: 50%;
     display: block;
     margin: auto;
+}
+
+.p_container .item {
+    border: 0px solid white;
+    background-color: hsl(0, 0%, 20%);
+    width: 120px;
+    margin-bottom: 10px;
 }
