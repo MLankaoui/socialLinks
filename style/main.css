@@ -59,6 +59,13 @@ body {
     margin: auto;
 }
 
+.container .image img:hover {
+    transform: scale(1.1);
+    opacity: 70%;
+    border: 1px solid hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
 .p_container .item {
     border: 0px solid white;
     border-radius: 10px;
