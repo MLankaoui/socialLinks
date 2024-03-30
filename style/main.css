@@ -7,3 +7,14 @@
 h1 .name {
     color :hsl(0, 0%, 100%);
 }
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    font-size: 14px;
+}
