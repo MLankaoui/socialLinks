@@ -33,6 +33,12 @@ p {
     align-items: center;
     color: white;
 }
+
+.container .headers_container .location{
+    color: hsl(75, 94%, 57%);
+    padding-bottom: 13px;
+    font-size: 10px;
+}
 .container .p_container {
     display: flex;
     flex-direction: column;
@@ -61,4 +67,5 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 14px;
 }
