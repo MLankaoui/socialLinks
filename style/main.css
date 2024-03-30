@@ -42,6 +42,11 @@ p {
     color: white;
 }
 
-.image {
-
+.image img{
+    border: 0px solid transparent;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
