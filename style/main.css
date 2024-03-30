@@ -1,5 +1,8 @@
 body {
     background-color: hsl(0, 2%, 10%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 * {
@@ -16,9 +19,11 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border: 0px solid #ccc;
-    padding: 20px;
     border-radius: 10%;
     background-color: hsl(0, 0%, 12%);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
 }
 
 .container .headers_container {
